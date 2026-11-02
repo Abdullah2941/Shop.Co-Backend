@@ -1,0 +1,359 @@
+[
+  {
+    "title": "T-shirt with Tape Details",
+    "description": "A relaxed-fit tee finished with a bold shoulder tape detail. Cut from heavyweight combed cotton so it keeps its shape wash after wash.",
+    "price": 120,
+    "discount": 0,
+    "category": "T-shirts",
+    "style": "casual",
+    "gender": "men",
+    "tag": "new",
+    "image": "/Images/Arrival 1.png",
+    "colors": [
+      "#1c1c1c",
+      "#8b8b8b",
+      "#2f3e34"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "numReviews": 128,
+    "stock": 50,
+    "isFeatured": false
+  },
+  {
+    "title": "Skinny Fit Jeans",
+    "description": "Stretch denim tailored close to the leg from hip to ankle without feeling restrictive. A five-pocket classic that layers under anything.",
+    "price": 260,
+    "discount": 7.6923,
+    "category": "Jeans",
+    "style": "casual",
+    "gender": "men",
+    "tag": "new",
+    "image": "/Images/Arrival 2.png",
+    "colors": [
+      "#3b5375",
+      "#1c1c1c"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "rating": 3.5,
+    "numReviews": 89,
+    "stock": 50,
+    "isFeatured": false
+  },
+  {
+    "title": "Checkered Shirt",
+    "description": "A crisp cotton shirt in a classic check, cut with a full button placket and a point collar that works equally well tucked or loose.",
+    "price": 180,
+    "discount": 0,
+    "category": "Shirts",
+    "style": "formal",
+    "gender": "men",
+    "tag": "new",
+    "image": "/Images/Arrival 3.png",
+    "colors": [
+      "#7c2436",
+      "#22304a"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "numReviews": 63,
+    "stock": 50,
+    "isFeatured": false
+  },
+  {
+    "title": "Sleeve Striped T-shirt",
+    "description": "Contrast raglan sleeves and fine stripes give this tee a varsity feel. Soft jersey knit that breathes all day long.",
+    "price": 160,
+    "discount": 18.75,
+    "category": "T-shirts",
+    "style": "casual",
+    "gender": "men",
+    "tag": "new",
+    "image": "/Images/Arrival 4.png",
+    "colors": [
+      "#d9531e",
+      "#1c1c1c"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.5,
+    "numReviews": 154,
+    "stock": 50,
+    "isFeatured": false
+  },
+  {
+    "title": "Vertical Striped Shirt",
+    "description": "A slim, vertical stripe runs the full length of this shirt for a lean silhouette. Lightweight cotton poplin, easy to dress up or down.",
+    "price": 232,
+    "discount": 8.6207,
+    "category": "Shirts",
+    "style": "formal",
+    "gender": "men",
+    "tag": "top",
+    "image": "/Images/Arrival 1.png",
+    "colors": [
+      "#4b5c46",
+      "#1c1c1c"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 5,
+    "numReviews": 41,
+    "stock": 50,
+    "isFeatured": true
+  },
+  {
+    "title": "Courage Graphic T-shirt",
+    "description": "Oversized graphic print on heavyweight cotton. Garment-washed for a broken-in feel straight out of the bag.",
+    "price": 145,
+    "discount": 0,
+    "category": "T-shirts",
+    "style": "casual",
+    "gender": "men",
+    "tag": "top",
+    "image": "/Images/Arrival 2.png",
+    "colors": [
+      "#c1531b",
+      "#1c1c1c"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4,
+    "numReviews": 97,
+    "stock": 50,
+    "isFeatured": true
+  },
+  {
+    "title": "Loose Fit Bermuda Shorts",
+    "description": "Above-the-knee shorts in washed denim with a roomy, loose fit. Deep pockets and a relaxed drape make them a warm-weather staple.",
+    "price": 80,
+    "discount": 0,
+    "category": "Shorts",
+    "style": "gym",
+    "gender": "men",
+    "tag": "top",
+    "image": "/Images/Arrival 3.png",
+    "colors": [
+      "#7896b0",
+      "#1c1c1c"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 3,
+    "numReviews": 52,
+    "stock": 50,
+    "isFeatured": true
+  },
+  {
+    "title": "Faded Skinny Jeans",
+    "description": "A faded black wash gives these skinny jeans a worn-in edge. Four-way stretch denim moves with you all day.",
+    "price": 210,
+    "discount": 0,
+    "category": "Jeans",
+    "style": "casual",
+    "gender": "women",
+    "tag": "top",
+    "image": "/Images/Arrival 4.png",
+    "colors": [
+      "#1c1c1c",
+      "#3b5375"
+    ],
+    "sizes": [
+      "24",
+      "26",
+      "28",
+      "30",
+      "32"
+    ],
+    "rating": 4.5,
+    "numReviews": 73,
+    "stock": 50,
+    "isFeatured": true
+  },
+  {
+    "title": "Tailored Check Blazer",
+    "description": "A structured blazer in a subtle windowpane check, fully lined with a two-button front. Built for the boardroom and beyond.",
+    "price": 360,
+    "discount": 11.1111,
+    "category": "Jackets",
+    "style": "formal",
+    "gender": "men",
+    "tag": "top",
+    "image": "/Images/Arrival 1.png",
+    "colors": [
+      "#1c1c1c",
+      "#22304a"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.7,
+    "numReviews": 34,
+    "stock": 50,
+    "isFeatured": true
+  },
+  {
+    "title": "Satin Slip Dress",
+    "description": "Bias-cut satin that skims the body in a fluid drop. Adjustable straps and a cowl neckline for effortless evening wear.",
+    "price": 175,
+    "discount": 0,
+    "category": "Dresses",
+    "style": "party",
+    "gender": "women",
+    "tag": "new",
+    "image": "/Images/Arrival 2.png",
+    "colors": [
+      "#7c2436",
+      "#1c1c1c",
+      "#8b8b8b"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "rating": 4.8,
+    "numReviews": 112,
+    "stock": 50,
+    "isFeatured": false
+  },
+  {
+    "title": "Seamless Training Tank",
+    "description": "Four-way stretch, seamless construction and a dropped armhole for full range of motion. Built to move through every set.",
+    "price": 65,
+    "discount": 0,
+    "category": "T-shirts",
+    "style": "gym",
+    "gender": "women",
+    "tag": "top",
+    "image": "/Images/Arrival 3.png",
+    "colors": [
+      "#22304a",
+      "#1c1c1c",
+      "#d9531e"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rating": 4.3,
+    "numReviews": 88,
+    "stock": 50,
+    "isFeatured": true
+  },
+  {
+    "title": "Wool Blend Overcoat",
+    "description": "A longline wool-blend coat with a clean notch lapel. Heavy enough for winter, sharp enough for the office.",
+    "price": 480,
+    "discount": 12.5,
+    "category": "Jackets",
+    "style": "formal",
+    "gender": "women",
+    "tag": "new",
+    "image": "/Images/Arrival 4.png",
+    "colors": [
+      "#8b8b8b",
+      "#1c1c1c"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "rating": 4.9,
+    "numReviews": 27,
+    "stock": 50,
+    "isFeatured": false
+  },
+  {
+    "title": "Sequin Party Top",
+    "description": "Fully sequinned for maximum shine under low light. A relaxed boxy fit keeps it comfortable through a long night out.",
+    "price": 138,
+    "discount": 0,
+    "category": "T-shirts",
+    "style": "party",
+    "gender": "women",
+    "tag": "new",
+    "image": "/Images/Arrival 1.png",
+    "colors": [
+      "#1c1c1c",
+      "#c9a227"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "rating": 4.4,
+    "numReviews": 61,
+    "stock": 50,
+    "isFeatured": false
+  },
+  {
+    "title": "Fleece Track Joggers",
+    "description": "Brushed-back fleece joggers with a tapered leg and ribbed cuff. Zip pockets keep essentials secure on the move.",
+    "price": 110,
+    "discount": 13.6364,
+    "category": "Jeans",
+    "style": "gym",
+    "gender": "men",
+    "tag": "top",
+    "image": "/Images/Arrival 2.png",
+    "colors": [
+      "#1c1c1c",
+      "#4b5c46",
+      "#8b8b8b"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.2,
+    "numReviews": 143,
+    "stock": 50,
+    "isFeatured": true
+  }
+]
