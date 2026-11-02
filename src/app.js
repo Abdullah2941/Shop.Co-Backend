@@ -5,7 +5,10 @@ const { notFound, errorHandler } = require('./middleware/error');
 
 const app = express();
 
-const allowed = (process.env.CLIENT_URLS || '').split(',').map((s) => s.trim()).filter(Boolean);
+const allowed = (process.env.CLIENT_URLS || '')
+  .split(',')
+  .map((s) => s.trim().replace(/\/+$/, ''))
+  .filter(Boolean);
 app.use(
   cors({
     origin: (origin, cb) => {
