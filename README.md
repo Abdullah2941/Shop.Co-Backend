@@ -10,10 +10,15 @@ Ek hi backend dono frontends ke liye: **website** (REACT_ASSIGNMENT_1) aur **adm
    - sirf `npm run seed` : products tab hi daalta hai jab collection khali ho
 4. `npm run dev`  -> http://localhost:5000
 
-## Deploy (Render / Railway)
-- Build: `npm install`, Start: `npm start`
-- Environment Variables: `MONGO_URI`, `JWT_SECRET`, `CLIENT_URLS` (dono Vercel links, comma se alag), `SITE_URL` (website ka link)
-- Phir backend ka link dono frontends me `VITE_API_URL=https://<backend>/api` ke naam se daalo (Vercel -> Settings -> Environment Variables) aur redeploy karo
+## Deploy on Vercel
+1. Backend folder ko GitHub par push karo (`.env` nahi, wo `.gitignore` me hai)
+2. Vercel -> Add New Project -> us repo ko import karo (Framework: **Other**, koi build command nahi)
+3. Environment Variables daalo: `MONGO_URI`, `JWT_SECRET`, `CLIENT_URLS` (dono frontend links, comma se alag), `SITE_URL` (website ka link), `JWT_EXPIRES_IN=7d`
+4. Deploy. Test: `https://<backend>.vercel.app/` par `SHOP.CO API running` aana chahiye
+5. Dono frontends me `VITE_API_URL=https://<backend>.vercel.app/api` daalo aur redeploy karo
+6. Seed (admin + products) apne computer se chalao: `.env` me wahi `MONGO_URI` rakho, phir `npm run seed -- --reset`
+
+Render/Railway par bhi `npm start` se chalta hai.
 
 ## Structure (MVC)
 - `src/models`: User, Product, Order
