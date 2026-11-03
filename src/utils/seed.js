@@ -18,7 +18,8 @@ const abs = (src) => (src && src.startsWith('/') ? SITE_URL + encodeURI(src) : s
     const reset = process.argv.includes('--reset');
 
     const email = (process.env.ADMIN_EMAIL || 'admin@shop.co').toLowerCase();
-    if (!(await User.findOne({ email }))) {
+    let admin = await User.findOne({ email }).select('+password');
+    if (!admin) {
       await User.create({
         name: process.env.ADMIN_NAME || 'Admin',
         email,
@@ -27,7 +28,12 @@ const abs = (src) => (src && src.startsWith('/') ? SITE_URL + encodeURI(src) : s
       });
       console.log(`Admin created: ${email}`);
     } else {
-      console.log('Admin already exists');
+      admin.name = process.env.ADMIN_NAME || admin.name;
+      admin.email = email;
+      admin.password = process.env.ADMIN_PASSWORD || 'Admin@12345';
+      admin.role = 'admin';
+      await admin.save();
+      console.log(`Admin password synchronized: ${email}`);
     }
 
     if (reset) {
