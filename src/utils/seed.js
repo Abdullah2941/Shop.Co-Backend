@@ -9,7 +9,7 @@ const Order = require('../models/Order');
 const catalog = require('./catalog.json');
 
 // Catalogue images that live in the website's /public folder need the website's address
-const SITE_URL = (process.env.SITE_URL || 'https://react-assignment-1-drab-six.vercel.app').replace(/\/$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://shop-co-e-commerce-website-rose.vercel.app').replace(/\/$/, '');
 const abs = (src) => (src && src.startsWith('/') ? SITE_URL + encodeURI(src) : src);
 
 (async () => {

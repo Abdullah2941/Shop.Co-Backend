@@ -9,6 +9,8 @@ const app = express();
 // Allowed frontends from CLIENT_URLS. Spaces, trailing "/" and upper/lower case are ignored.
 const clean = (u) => u.trim().replace(/\/+$/, '').toLowerCase();
 const defaults = [
+  'https://shop-co-e-commerce-website-rose.vercel.app',
+  'https://shop-co-admin-panel.vercel.app',
   'https://react-assignment-1-drab-six.vercel.app',
   'https://admin-panel-two-lyart.vercel.app',
   'http://localhost:5173',
